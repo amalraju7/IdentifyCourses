@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -34,12 +35,13 @@ public class SearchCourseTest {
 
 	@BeforeClass(groups = { "Regression","smoke"  })
 	@Parameters({ "browser" })
-	public void invokeBrowser(String browser) {
+	public void invokeBrowser(@Optional String browser) {
 	
 		
 		/* This steps will invoke the browser */
 		// The browser name is got from the properties file
 		// Report and logger is instantiated
+		browser="chrome";
 		System.out.println("*************** Working with Test Scenario-3 --<WebDevelopment Courses>-- ***************");
 		
 		String Testname = "SearchCourseTestRport";

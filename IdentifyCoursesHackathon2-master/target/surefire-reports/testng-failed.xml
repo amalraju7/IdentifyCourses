@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
     <classes>
-      <class name="com.test.classes.FillingFormTest">
+      <class name="com.test.classes.SearchCourseTest">
         <methods>
           <include name="endTest"/>
-          <include name="getDetailsTest"/>
-          <include name="InvokeBrowser"/>
+          <include name="invokeBrowser"/>
+          <include name="checkSecondCourse"/>
+          <include name="selectLevelTest"/>
+          <include name="enterCourseTest"/>
+          <include name="checkFirstCourse"/>
         </methods>
-      </class> <!-- com.test.classes.FillingFormTest -->
+      </class> <!-- com.test.classes.SearchCourseTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

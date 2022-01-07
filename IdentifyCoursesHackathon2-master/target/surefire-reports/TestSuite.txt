@@ -1,4 +1,60 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.414 s - in TestSuite
+Tests run: 12, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 130.342 s <<< FAILURE! - in TestSuite
+enterCourseTest(com.test.classes.SearchCourseTest)  Time elapsed: 11.075 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='What do you want to learn?']"}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMALRAJUEDE5', ip: '10.211.55.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//input[@placeholder='What do you want to learn?']}
+	at com.test.classes.SearchCourseTest.enterCourseTest(SearchCourseTest.java:71)
+
+selectLevelTest(com.test.classes.SearchCourseTest)  Time elapsed: 0.038 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMALRAJUEDE5', ip: '10.211.55.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//div[@id='react-select-3--value']}
+	at com.test.classes.SearchCourseTest.selectLevelTest(SearchCourseTest.java:80)
+
+checkFirstCourse(com.test.classes.SearchCourseTest)  Time elapsed: 0.045 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMALRAJUEDE5', ip: '10.211.55.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//*[@id="main"]/div/div/div[1]/div/div[2]/div/div/div/div/ul/li[1]/div/div/a/div/div[2]/h2}
+	at com.test.classes.SearchCourseTest.checkFirstCourse(SearchCourseTest.java:86)
+
+checkSecondCourse(com.test.classes.SearchCourseTest)  Time elapsed: 0.037 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMALRAJUEDE5', ip: '10.211.55.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//*[@id="main"]/div/div/div[1]/div/div[2]/div/div/div/div/ul/li[2]/div/div/a/div}
+	at com.test.classes.SearchCourseTest.checkSecondCourse(SearchCourseTest.java:92)
+
+endTest(com.test.classes.SearchCourseTest)  Time elapsed: 5.091 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMALRAJUEDE5', ip: '10.211.55.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+	at com.test.classes.SearchCourseTest.endTest(SearchCourseTest.java:100)
+

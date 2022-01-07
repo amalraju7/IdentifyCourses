@@ -24,23 +24,23 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
                     <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
-                    <span>1 group</span>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" hash-for-method="checkFirstCourse">checkFirstCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" hash-for-method="checkSecondCourse">checkSecondCourse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" hash-for-method="enterCourseTest">enterCourseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" hash-for-method="selectLevelTest">selectLevelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,58 +132,38 @@
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" class="method navigator-link" hash-for-method="checkFirstCourse">checkFirstCourse</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" hash-for-method="clickForEnterpriseTest">clickForEnterpriseTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" class="method navigator-link" hash-for-method="checkSecondCourse">checkSecondCourse</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" hash-for-method="getDetailsTest">getDetailsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" class="method navigator-link" hash-for-method="clickForEnterpriseTest">clickForEnterpriseTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" hash-for-method="languageSelectTest">languageSelectTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" class="method navigator-link" hash-for-method="enterCourseTest">enterCourseTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" hash-for-method="levelSelectTest">levelSelectTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" class="method navigator-link" hash-for-method="getDetailsTest">getDetailsTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" hash-for-method="openFormTest">openFormTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" class="method navigator-link" hash-for-method="languageSelectTest">languageSelectTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" hash-for-method="searchLanguageCourseTest">searchLanguageCourseTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" class="method navigator-link" hash-for-method="levelSelectTest">levelSelectTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" class="method navigator-link" hash-for-method="openFormTest">openFormTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.LanguageLearningTest" class="method navigator-link" hash-for-method="searchLanguageCourseTest">searchLanguageCourseTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.SearchCourseTest" class="method navigator-link" hash-for-method="selectLevelTest">selectLevelTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" class="method navigator-link" hash-for-method="setDetailsTest">setDetailsTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.test.classes.FillingFormTest" hash-for-method="setDetailsTest">setDetailsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -169,6 +178,140 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.classes.SearchCourseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFirstCourse">
+                  </a> <!-- checkFirstCourse -->
+                  <span class="method-name">checkFirstCourse</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMALRAJUEDE5&apos;, ip: &apos;10.211.55.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//*[@id=&quot;main&quot;]/div/div/div[1]/div/div[2]/div/div/div/div/ul/li[1]/div/div/a/div/div[2]/h2}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at com.page.classes.SearchCourse.FirstCourse(SearchCourse.java:121)
+	at com.test.classes.SearchCourseTest.checkFirstCourse(SearchCourseTest.java:86)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSecondCourse">
+                  </a> <!-- checkSecondCourse -->
+                  <span class="method-name">checkSecondCourse</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMALRAJUEDE5&apos;, ip: &apos;10.211.55.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//*[@id=&quot;main&quot;]/div/div/div[1]/div/div[2]/div/div/div/div/ul/li[2]/div/div/a/div}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.page.classes.SearchCourse.SecondCourse(SearchCourse.java:163)
+	at com.test.classes.SearchCourseTest.checkSecondCourse(SearchCourseTest.java:92)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCourseTest">
+                  </a> <!-- enterCourseTest -->
+                  <span class="method-name">enterCourseTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;What do you want to learn?&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMALRAJUEDE5&apos;, ip: &apos;10.211.55.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//input[@placeholder=&apos;What do you want to learn?&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.page.classes.HomePage.home(HomePage.java:33)
+	at com.test.classes.SearchCourseTest.enterCourseTest(SearchCourseTest.java:71)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLevelTest">
+                  </a> <!-- selectLevelTest -->
+                  <span class="method-name">selectLevelTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Session [f72fd95f75fcfea4ca1048ec8545c175] was terminated due to BROWSER_TIMEOUT
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMALRAJUEDE5&apos;, ip: &apos;10.211.55.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AMALRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f72fd95f75fcfea4ca1048ec8545c175
+*** Element info: {Using=xpath, value=//div[@id=&apos;react-select-3--value&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.page.classes.SearchCourse.LevelSelect(SearchCourse.java:103)
+	at com.test.classes.SearchCourseTest.selectLevelTest(SearchCourseTest.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -201,42 +344,6 @@
                   <a name="setDetailsTest">
                   </a> <!-- setDetailsTest -->
                   <span class="method-name">setDetailsTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.test.classes.SearchCourseTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkFirstCourse">
-                  </a> <!-- checkFirstCourse -->
-                  <span class="method-name">checkFirstCourse</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkSecondCourse">
-                  </a> <!-- checkSecondCourse -->
-                  <span class="method-name">checkSecondCourse</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterCourseTest">
-                  </a> <!-- enterCourseTest -->
-                  <span class="method-name">enterCourseTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectLevelTest">
-                  </a> <!-- selectLevelTest -->
-                  <span class="method-name">selectLevelTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -278,8 +385,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.test.classes.FillingFormTest&quot;/&gt;
       &lt;class name=&quot;com.test.classes.LanguageLearningTest&quot;/&gt;
@@ -355,6 +462,30 @@
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickForEnterpriseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterCourseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">openFormTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchLanguageCourseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectLevelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Surefire_suite" class="panel">
@@ -373,54 +504,54 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'setDetailsTest')
-data.setCell(0, 2, 'com.test.classes.FillingFormTest')
-data.setCell(0, 3, 12076);
+data.setCell(0, 1, 'searchLanguageCourseTest')
+data.setCell(0, 2, 'com.test.classes.LanguageLearningTest')
+data.setCell(0, 3, 15318);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickForEnterpriseTest')
+data.setCell(1, 1, 'setDetailsTest')
 data.setCell(1, 2, 'com.test.classes.FillingFormTest')
-data.setCell(1, 3, 10403);
+data.setCell(1, 3, 12022);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkSecondCourse')
+data.setCell(2, 1, 'enterCourseTest')
 data.setCell(2, 2, 'com.test.classes.SearchCourseTest')
-data.setCell(2, 3, 7508);
+data.setCell(2, 3, 11045);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkFirstCourse')
-data.setCell(3, 2, 'com.test.classes.SearchCourseTest')
-data.setCell(3, 3, 5525);
+data.setCell(3, 1, 'languageSelectTest')
+data.setCell(3, 2, 'com.test.classes.LanguageLearningTest')
+data.setCell(3, 3, 10777);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchLanguageCourseTest')
-data.setCell(4, 2, 'com.test.classes.LanguageLearningTest')
-data.setCell(4, 3, 5518);
+data.setCell(4, 1, 'clickForEnterpriseTest')
+data.setCell(4, 2, 'com.test.classes.FillingFormTest')
+data.setCell(4, 3, 10271);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'levelSelectTest')
-data.setCell(5, 2, 'com.test.classes.LanguageLearningTest')
-data.setCell(5, 3, 4587);
+data.setCell(5, 1, 'getDetailsTest')
+data.setCell(5, 2, 'com.test.classes.FillingFormTest')
+data.setCell(5, 3, 3257);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'enterCourseTest')
-data.setCell(6, 2, 'com.test.classes.SearchCourseTest')
-data.setCell(6, 3, 3899);
+data.setCell(6, 1, 'levelSelectTest')
+data.setCell(6, 2, 'com.test.classes.LanguageLearningTest')
+data.setCell(6, 3, 2934);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'languageSelectTest')
-data.setCell(7, 2, 'com.test.classes.LanguageLearningTest')
-data.setCell(7, 3, 2470);
+data.setCell(7, 1, 'openFormTest')
+data.setCell(7, 2, 'com.test.classes.FillingFormTest')
+data.setCell(7, 3, 803);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'getDetailsTest')
-data.setCell(8, 2, 'com.test.classes.FillingFormTest')
-data.setCell(8, 3, 1510);
+data.setCell(8, 1, 'selectLevelTest')
+data.setCell(8, 2, 'com.test.classes.SearchCourseTest')
+data.setCell(8, 3, 41);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'openFormTest')
-data.setCell(9, 2, 'com.test.classes.FillingFormTest')
-data.setCell(9, 3, 337);
+data.setCell(9, 1, 'checkFirstCourse')
+data.setCell(9, 2, 'com.test.classes.SearchCourseTest')
+data.setCell(9, 3, 40);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'selectLevelTest')
+data.setCell(10, 1, 'checkSecondCourse')
 data.setCell(10, 2, 'com.test.classes.SearchCourseTest')
-data.setCell(10, 3, 252);
+data.setCell(10, 3, 31);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -435,82 +566,82 @@ return data;
               <span class="reporter-method-name">languageSelectTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">English
-(1527)
-Spanish
-(802)
+(1182)
 Russian
-(788)
+(624)
+Spanish
+(614)
 French
-(731)
+(570)
 Portuguese (Portugal)
-(673)
-Arabic
-(594)
+(547)
 German
-(589)
+(481)
+Arabic
+(479)
 Vietnamese
-(586)
+(472)
 Italian
-(559)
-Chinese (China)
-(168)
+(460)
 Korean
-(154)
+(137)
+Chinese (China)
+(118)
 Portuguese (Brazil)
-(75)
-Japanese
-(69)
+(66)
 Turkish
-(67)
+(55)
+Japanese
+(53)
 Persian
-(47)
+(42)
 Chinese (Traditional)
-(43)
+(23)
 Greek
-(24)
+(21)
 Ukrainian
-(20)
+(18)
 Thai
 (17)
-Portuguese
-(16)
 Hindi
-(14)
-Dutch
 (13)
 Afrikaans
 (12)
 Urdu
 (12)
-Hungarian
-(10)
-Catalan
-(9)
-Javanese
+Polish
 (8)
+Dutch
+(7)
 Hebrew
 (7)
+Hungarian
+(7)
+Catalan
+(6)
 Indonesian
-(7)
-Polish
-(7)
+(6)
 Mongolian
 (6)
 Romanian
 (6)
+Javanese
+(5)
+Portuguese
+(5)
+Serbian
+(5)
 Slovak
-(6)
+(5)
 Tamil
 (5)
-Czech
-(4)
-Serbian
-(4)
 Albanian
-(3)
+(4)
 Bengali
+(4)
+Czech
 (3)
-Georgian
+Estonian
 (3)
 Swedish
 (3)
@@ -518,9 +649,7 @@ Telugu
 (3)
 Burmese
 (2)
-Croatian
-(2)
-Estonian
+Georgian
 (2)
 Lithuanian
 (2)
@@ -555,78 +684,88 @@ Russian (Russia)
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.classes.FillingFormTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">InvokeBrowser</span>
+                <span class="method-name">InvokeBrowser(null)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">clickForEnterpriseTest</span>
-                <span class="method-start">6639 ms</span>
+                <span class="method-start">11650 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">openFormTest</span>
-                <span class="method-start">17047 ms</span>
+                <span class="method-start">21948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getDetailsTest</span>
-                <span class="method-start">17386 ms</span>
+                <span class="method-start">22757 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">setDetailsTest</span>
-                <span class="method-start">18897 ms</span>
+                <span class="method-start">26019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">30974 ms</span>
+                <span class="method-start">38061 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.classes.LanguageLearningTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">invokeBrowser</span>
-                <span class="method-start">37073 ms</span>
+                <span class="method-name">invokeBrowser(null)</span>
+                <span class="method-start">45446 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchLanguageCourseTest</span>
-                <span class="method-start">41276 ms</span>
+                <span class="method-start">60948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">languageSelectTest</span>
-                <span class="method-start">46796 ms</span>
+                <span class="method-start">76278 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">levelSelectTest</span>
-                <span class="method-start">49267 ms</span>
+                <span class="method-start">87064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">53854 ms</span>
+                <span class="method-start">90000 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.classes.SearchCourseTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">invokeBrowser</span>
-                <span class="method-start">59469 ms</span>
+                <span class="method-name">invokeBrowser(null)</span>
+                <span class="method-start">95429 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">enterCourseTest</span>
-                <span class="method-start">67003 ms</span>
+                <span class="method-start">112464 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">selectLevelTest</span>
-                <span class="method-start">70903 ms</span>
+                <span class="method-start">123536 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkFirstCourse</span>
-                <span class="method-start">71156 ms</span>
+                <span class="method-start">123581 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkSecondCourse</span>
-                <span class="method-start">76681 ms</span>
+                <span class="method-start">123626 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">endTest</span>
-                <span class="method-start">84191 ms</span>
+                <span class="method-start">123660 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
