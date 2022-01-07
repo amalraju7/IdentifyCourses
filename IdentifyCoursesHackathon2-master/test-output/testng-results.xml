@@ -1,330 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
-    <line>
-      <![CDATA[English
-(1182)
-Russian
-(624)
-Spanish
-(614)
-French
-(570)
-Portuguese (Portugal)
-(547)
-German
-(481)
-Arabic
-(479)
-Vietnamese
-(472)
-Italian
-(460)
-Korean
-(137)
-Chinese (China)
-(118)
-Portuguese (Brazil)
-(66)
-Turkish
-(55)
-Japanese
-(53)
-Persian
-(42)
-Chinese (Traditional)
-(23)
-Greek
-(21)
-Ukrainian
-(18)
-Thai
-(17)
-Hindi
-(13)
-Afrikaans
-(12)
-Urdu
-(12)
-Polish
-(8)
-Dutch
-(7)
-Hebrew
-(7)
-Hungarian
-(7)
-Catalan
-(6)
-Indonesian
-(6)
-Mongolian
-(6)
-Romanian
-(6)
-Javanese
-(5)
-Portuguese
-(5)
-Serbian
-(5)
-Slovak
-(5)
-Tamil
-(5)
-Albanian
-(4)
-Bengali
-(4)
-Czech
-(3)
-Estonian
-(3)
-Swedish
-(3)
-Telugu
-(3)
-Burmese
-(2)
-Georgian
-(2)
-Lithuanian
-(2)
-Uzbek
-(2)
-Bulgarian
-(1)
-Kazakh
-(1)
-Marathi
-(1)
-Nepali
-(1)
-Russian (Russia)
-(1)]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-01-04T20:40:32 IST" name="Regression" finished-at="2022-01-04T20:42:10 IST" duration-ms="98218">
+  <suite started-at="2022-01-04T22:57:11 IST" name="Default suite" finished-at="2022-01-04T22:57:12 IST" duration-ms="546">
     <groups>
       <group name="smoke">
-        <method signature="FillingFormTest.clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@3738449f]" name="clickForEnterpriseTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="FillingFormTest.openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@3738449f]" name="openFormTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="LanguageLearningTest.searchLanguageCourseTest()[pri:0, instance:com.test.classes.LanguageLearningTest@69e1dd28]" name="searchLanguageCourseTest" class="com.test.classes.LanguageLearningTest"/>
-        <method signature="SearchCourseTest.enterCourseTest()[pri:0, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="enterCourseTest" class="com.test.classes.SearchCourseTest"/>
-        <method signature="SearchCourseTest.selectLevelTest()[pri:1, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="selectLevelTest" class="com.test.classes.SearchCourseTest"/>
+        <method signature="FillingFormTest.clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@140c9f39]" name="clickForEnterpriseTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@140c9f39]" name="openFormTest" class="com.test.classes.FillingFormTest"/>
       </group> <!-- smoke -->
       <group name="Regression">
-        <method signature="FillingFormTest.clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@3738449f]" name="clickForEnterpriseTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="FillingFormTest.getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@3738449f]" name="getDetailsTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="FillingFormTest.openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@3738449f]" name="openFormTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="FillingFormTest.setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@3738449f]" name="setDetailsTest" class="com.test.classes.FillingFormTest"/>
-        <method signature="LanguageLearningTest.languageSelectTest()[pri:1, instance:com.test.classes.LanguageLearningTest@69e1dd28]" name="languageSelectTest" class="com.test.classes.LanguageLearningTest"/>
-        <method signature="LanguageLearningTest.levelSelectTest()[pri:2, instance:com.test.classes.LanguageLearningTest@69e1dd28]" name="levelSelectTest" class="com.test.classes.LanguageLearningTest"/>
-        <method signature="LanguageLearningTest.searchLanguageCourseTest()[pri:0, instance:com.test.classes.LanguageLearningTest@69e1dd28]" name="searchLanguageCourseTest" class="com.test.classes.LanguageLearningTest"/>
-        <method signature="SearchCourseTest.checkFirstCourse()[pri:2, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="checkFirstCourse" class="com.test.classes.SearchCourseTest"/>
-        <method signature="SearchCourseTest.checkSecondCourse()[pri:3, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="checkSecondCourse" class="com.test.classes.SearchCourseTest"/>
-        <method signature="SearchCourseTest.enterCourseTest()[pri:0, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="enterCourseTest" class="com.test.classes.SearchCourseTest"/>
-        <method signature="SearchCourseTest.selectLevelTest()[pri:1, instance:com.test.classes.SearchCourseTest@11bd0f3b]" name="selectLevelTest" class="com.test.classes.SearchCourseTest"/>
+        <method signature="FillingFormTest.clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@140c9f39]" name="clickForEnterpriseTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@140c9f39]" name="getDetailsTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@140c9f39]" name="openFormTest" class="com.test.classes.FillingFormTest"/>
+        <method signature="FillingFormTest.setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@140c9f39]" name="setDetailsTest" class="com.test.classes.FillingFormTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2022-01-04T20:40:32 IST" name="Test" finished-at="2022-01-04T20:42:10 IST" duration-ms="98218">
+    <test started-at="2022-01-04T22:57:11 IST" name="Default test" finished-at="2022-01-04T22:57:12 IST" duration-ms="546">
       <class name="com.test.classes.FillingFormTest">
-        <test-method is-config="true" signature="InvokeBrowser(java.lang.String)[pri:0, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:32 IST" name="InvokeBrowser" finished-at="2022-01-04T20:40:44 IST" duration-ms="11501" status="PASS">
+        <test-method is-config="true" signature="InvokeBrowser(java.lang.String)[pri:0, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:11 IST" name="InvokeBrowser" finished-at="2022-01-04T22:57:11 IST" duration-ms="408" status="FAIL">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at com.base.classes.BaseClass.validateBrowser(BaseClass.java:37)
+at com.test.classes.FillingFormTest.InvokeBrowser(FillingFormTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvokeBrowser -->
-        <test-method signature="clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:44 IST" name="clickForEnterpriseTest" finished-at="2022-01-04T20:40:45 IST" duration-ms="1422" status="PASS">
+        <test-method signature="clickForEnterpriseTest()[pri:1, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:11 IST" name="clickForEnterpriseTest" finished-at="2022-01-04T22:57:11 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at com.base.classes.BaseClass.validateBrowser(BaseClass.java:37)
+at com.test.classes.FillingFormTest.InvokeBrowser(FillingFormTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickForEnterpriseTest -->
-        <test-method signature="openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:45 IST" name="openFormTest" finished-at="2022-01-04T20:40:47 IST" duration-ms="1868" status="PASS">
+        <test-method signature="openFormTest()[pri:2, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:12 IST" name="openFormTest" finished-at="2022-01-04T22:57:12 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at com.base.classes.BaseClass.validateBrowser(BaseClass.java:37)
+at com.test.classes.FillingFormTest.InvokeBrowser(FillingFormTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFormTest -->
-        <test-method signature="getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:47 IST" name="getDetailsTest" finished-at="2022-01-04T20:40:49 IST" duration-ms="1531" status="PASS">
+        <test-method signature="getDetailsTest()[pri:3, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:12 IST" name="getDetailsTest" finished-at="2022-01-04T22:57:12 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at com.base.classes.BaseClass.validateBrowser(BaseClass.java:37)
+at com.test.classes.FillingFormTest.InvokeBrowser(FillingFormTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDetailsTest -->
-        <test-method signature="setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:49 IST" name="setDetailsTest" finished-at="2022-01-04T20:40:58 IST" duration-ms="9904" status="PASS">
+        <test-method signature="setDetailsTest()[pri:4, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:12 IST" name="setDetailsTest" finished-at="2022-01-04T22:57:12 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browsername" is null
+at com.base.classes.BaseClass.validateBrowser(BaseClass.java:37)
+at com.test.classes.FillingFormTest.InvokeBrowser(FillingFormTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDetailsTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.FillingFormTest@3738449f]" started-at="2022-01-04T20:40:58 IST" name="endTest" finished-at="2022-01-04T20:41:04 IST" duration-ms="5818" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.FillingFormTest@140c9f39]" started-at="2022-01-04T22:57:12 IST" name="endTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1641317232048" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.test.classes.FillingFormTest -->
-      <class name="com.test.classes.LanguageLearningTest">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:com.test.classes.LanguageLearningTest@69e1dd28]" started-at="2022-01-04T20:41:04 IST" name="invokeBrowser" finished-at="2022-01-04T20:41:11 IST" duration-ms="6397" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-        <test-method signature="searchLanguageCourseTest()[pri:0, instance:com.test.classes.LanguageLearningTest@69e1dd28]" started-at="2022-01-04T20:41:11 IST" name="searchLanguageCourseTest" finished-at="2022-01-04T20:41:22 IST" duration-ms="11451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchLanguageCourseTest -->
-        <test-method signature="languageSelectTest()[pri:1, instance:com.test.classes.LanguageLearningTest@69e1dd28]" started-at="2022-01-04T20:41:22 IST" name="languageSelectTest" finished-at="2022-01-04T20:41:28 IST" duration-ms="5598" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[English
-(1182)
-Russian
-(624)
-Spanish
-(614)
-French
-(570)
-Portuguese (Portugal)
-(547)
-German
-(481)
-Arabic
-(479)
-Vietnamese
-(472)
-Italian
-(460)
-Korean
-(137)
-Chinese (China)
-(118)
-Portuguese (Brazil)
-(66)
-Turkish
-(55)
-Japanese
-(53)
-Persian
-(42)
-Chinese (Traditional)
-(23)
-Greek
-(21)
-Ukrainian
-(18)
-Thai
-(17)
-Hindi
-(13)
-Afrikaans
-(12)
-Urdu
-(12)
-Polish
-(8)
-Dutch
-(7)
-Hebrew
-(7)
-Hungarian
-(7)
-Catalan
-(6)
-Indonesian
-(6)
-Mongolian
-(6)
-Romanian
-(6)
-Javanese
-(5)
-Portuguese
-(5)
-Serbian
-(5)
-Slovak
-(5)
-Tamil
-(5)
-Albanian
-(4)
-Bengali
-(4)
-Czech
-(3)
-Estonian
-(3)
-Swedish
-(3)
-Telugu
-(3)
-Burmese
-(2)
-Georgian
-(2)
-Lithuanian
-(2)
-Uzbek
-(2)
-Bulgarian
-(1)
-Kazakh
-(1)
-Marathi
-(1)
-Nepali
-(1)
-Russian (Russia)
-(1)]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- languageSelectTest -->
-        <test-method signature="levelSelectTest()[pri:2, instance:com.test.classes.LanguageLearningTest@69e1dd28]" started-at="2022-01-04T20:41:28 IST" name="levelSelectTest" finished-at="2022-01-04T20:41:29 IST" duration-ms="1130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- levelSelectTest -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.LanguageLearningTest@69e1dd28]" started-at="2022-01-04T20:41:29 IST" name="endTest" finished-at="2022-01-04T20:41:34 IST" duration-ms="5280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.test.classes.LanguageLearningTest -->
-      <class name="com.test.classes.SearchCourseTest">
-        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:41:34 IST" name="invokeBrowser" finished-at="2022-01-04T20:41:41 IST" duration-ms="6535" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invokeBrowser -->
-        <test-method signature="enterCourseTest()[pri:0, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:41:41 IST" name="enterCourseTest" finished-at="2022-01-04T20:41:50 IST" duration-ms="9541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterCourseTest -->
-        <test-method signature="selectLevelTest()[pri:1, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:41:50 IST" name="selectLevelTest" finished-at="2022-01-04T20:41:53 IST" duration-ms="2469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectLevelTest -->
-        <test-method signature="checkFirstCourse()[pri:2, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:41:53 IST" name="checkFirstCourse" finished-at="2022-01-04T20:42:00 IST" duration-ms="7400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkFirstCourse -->
-        <test-method signature="checkSecondCourse()[pri:3, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:42:00 IST" name="checkSecondCourse" finished-at="2022-01-04T20:42:05 IST" duration-ms="4849" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSecondCourse -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:com.test.classes.SearchCourseTest@11bd0f3b]" started-at="2022-01-04T20:42:05 IST" name="endTest" finished-at="2022-01-04T20:42:10 IST" duration-ms="5377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.test.classes.SearchCourseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

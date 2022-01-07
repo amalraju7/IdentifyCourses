@@ -36,12 +36,12 @@ public class LanguageLearningTest {
 	
 	@Parameters({"browser"})
 	@BeforeClass(groups = { "Regression","smoke"  })
-	public void invokeBrowser(String browser) {
+	public void invokeBrowser(@Optional String browser) {
 		
 		/* Invoking the browser */
 		// The browser name is got from the properties file
 		// Report and logger is instantiated
-		
+		browser="chrome";
 		System.out.println("***************  Working with Test Scenario-2 ---<getting languages and different type of levels>--- ***************");
 	
 		String Testname = "LanguageLearningTestReport";

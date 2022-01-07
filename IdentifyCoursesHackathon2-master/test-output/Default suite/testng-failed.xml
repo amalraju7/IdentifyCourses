@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.classes.LanguageLearningTest">
+      <class name="com.test.classes.FillingFormTest">
         <methods>
+          <include name="setDetailsTest"/>
+          <include name="clickForEnterpriseTest"/>
           <include name="endTest"/>
-          <include name="invokeBrowser"/>
-          <include name="searchLanguageCourseTest"/>
-          <include name="levelSelectTest"/>
-          <include name="languageSelectTest"/>
+          <include name="getDetailsTest"/>
+          <include name="openFormTest"/>
+          <include name="InvokeBrowser"/>
         </methods>
-      </class> <!-- com.test.classes.LanguageLearningTest -->
+      </class> <!-- com.test.classes.FillingFormTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
